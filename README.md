@@ -15,7 +15,7 @@ b) **Association Rule mining  -** Finding item sets that are bought frequently t
 
 *File : OnlineRetail.ipynb*
 
-- The [Dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/00352/](https://archive.ics.uci.edu/ml/machine-learning-databases/00352/) used in the analysis is the Online Retail transnational data which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.
+- The [Dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/00352/) used in the analysis is the Online Retail transnational data which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.
 - The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers.
 - The file has 541909 observations and 8 variables (Invoice No, Stock Code, Description, Quantity, Invoice Date, Unit Price, Customer ID, Country)
 - On observing the data summary, the minimum values of quantity and unit price are negative meaning that some transactions were returns.
@@ -29,7 +29,7 @@ b) **Association Rule mining  -** Finding item sets that are bought frequently t
 
 ## APPROACH
 
-####Clustering and Customer Segmentation 
+### Clustering and Customer Segmentation 
 
 [*File : CustomerSegmentRFM&Clustering.ipynb*](https://nbviewer.org/github/saniya-k/Market-Basket-Analysis/blob/master/CustomerSegmentRFM%26Clustering.ipynb
 )
@@ -48,7 +48,7 @@ b) **Association Rule mining  -** Finding item sets that are bought frequently t
 
 6. Used snake plots to compare RFM segments and K-means segments. 
 
-####Association Analysis
+### Association Analysis
 
 [*File : OnlineRetail.ipynb*](https://nbviewer.org/github/saniya-k/Market-Basket-Analysis/blob/master/OnlineRetail.ipynb)
 
