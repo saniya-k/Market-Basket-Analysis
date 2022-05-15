@@ -2,6 +2,7 @@
 
 ![banner](/images/banner.jpg)
 
+
 ## INTRODUCTION
 
 ### This project is divided into two parts :
@@ -30,7 +31,8 @@ b) **Association Rule mining  -** Finding item sets that are bought frequently t
 
 ####Clustering and Customer Segmentation 
 
-*File : CustomerSegmentRFM&Clustering.ipynb*
+[*File : CustomerSegmentRFM&Clustering.ipynb*](https://nbviewer.org/github/saniya-k/Market-Basket-Analysis/blob/master/CustomerSegmentRFM%26Clustering.ipynb
+)
 
 1. Engineered features - day_since (Recency), Frequency (number of transactions), Monetary value (total invoice price) for each customer ID.
 2. Using binning generated R_score, F_score and M_score and aggregated RFM_score.
@@ -48,7 +50,7 @@ b) **Association Rule mining  -** Finding item sets that are bought frequently t
 
 ####Association Analysis
 
-*File : OnlineRetail.ipynb*
+[*File : OnlineRetail.ipynb*](https://nbviewer.org/github/saniya-k/Market-Basket-Analysis/blob/master/OnlineRetail.ipynb)
 
 1. Found the top 3 countries by transactions, subset the data to these 3 countries only.
 2. Used Apriori algorithm to find frequent itemset and rules.
